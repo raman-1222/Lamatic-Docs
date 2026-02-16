@@ -3,6 +3,10 @@
         "title": "GraphQL",
         "type": "doc"
     },
+    "mailhook": {
+        "title": "Mailhook",
+        "type": "doc"
+    },
     "webhooks": {
         "title": "Webhooks",
         "type": "doc"
