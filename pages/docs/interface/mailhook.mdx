@@ -6,7 +6,7 @@ description: Email trigger node for flows—incoming emails trigger your flow wi
 
 Mailhook is a **trigger node** that lets you start a flow when an email is received. Any email sent to the mailhook address triggers the flow, with its metadata and content included in the payload for processing.
 
-Use mailhooks in [Lamatic.ai](https://lamatic.ai) to build email-driven automations—e.g. support ticket routing, inbox parsing, or notifications—without polling or manual steps.
+Use mailhooks in [Lamatic.ai](https://lamatic.ai) to build email-driven automations e.g. support ticket routing, inbox parsing, or notifications without polling or manual steps.
 
 ## Mailhook overview
 
@@ -33,7 +33,7 @@ Use mailhooks in [Lamatic.ai](https://lamatic.ai) to build email-driven automati
 
 ## Payload schema
 
-When an email triggers the flow, the mailhook node passes a payload with the following structure. Use it in later nodes (e.g. via `{{mailhookNodeId.output}}` or your trigger node’s output reference) to drive logic, extract data, or generate responses.
+When an email triggers the flow, the mailhook node passes a payload with the following structure. Use it in later nodes or your trigger node’s output reference) to drive logic, extract data, or generate responses.
 
 | Field        | Type   | Description                                      |
 | ------------ | ------ | ------------------------------------------------ |
