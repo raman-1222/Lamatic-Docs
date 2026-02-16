@@ -39,6 +39,16 @@ const nextraConfig = withNextra({
   experimental: {
     scrollRestoration: true,
   },
+  // Avoid "EMFILE: too many open files" on macOS by using polling instead of native watchers
+  webpack: (config, { dev }) => {
+    if (dev) {
+      config.watchOptions = {
+        poll: 1000,
+        ignored: /node_modules/,
+      };
+    }
+    return config;
+  },
   typescript: {
     ignoreBuildErrors: true,
   },
