@@ -337,7 +337,6 @@ const permanentRedirects = [
 ["/docs/vector stores/mapping","/docs/context/vectordb"],
 ["/docs/vector stores/Vector Stores","/docs/context/vectordb"],
 ["/docs/workflows/nodes/Logic/api","/docs/flows/nodes"],
-["/docs/playground/GraphiQL","/docs/ide/graphql_ide"],
 ["/docs/workflows/Nodes/Flow/code","/docs/flows/nodes"],
 ["/docs/workflows/nodes/Logic/search-web","/docs/integrations/websearch"],
 ["/docs/workflows/Concepts/prompts","/docs/ide/prompt-ide"],
