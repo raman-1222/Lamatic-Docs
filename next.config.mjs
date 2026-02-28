@@ -643,7 +643,11 @@ const permanentRedirects = [
 ["/Co-Founder","/about-us"],
 ["/templates/agentkits/embed/agent-kit-embedded-chat","/agentkits"],
 ["/comparison/langflow","/compare/langflow"],
-["/comparison/n8n","/compare/n8n"]
+["/comparison/n8n","/compare/n8n"],
+  ["/docs/sdk/next","/docs/api-integration/sdk/next"],
+["/docs/deployment","/docs/deployments"],
+["/comparison/dify","/compare/dify"],
+["/docs/playground/GraphiQL","/docs/interface/graphql"]
 
 
 ];
